@@ -1,0 +1,84 @@
+/* BOOTSTRAP SETTINGS SECTION 
+
+/* USER VARIABLES SECTION */
+
+/* FONTS LOAD SECTION 
+@font-face {
+  src: url("../fonts/roboto-regular-webfont.woff2") format("woff2");
+  font-family: "roboto-st";
+  font-weight: 400;
+  font-style: normal;
+}
+/* GENERAL CSS SETTINGS */
+
+body {
+  background-color: #000;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	max-width: 1640px;
+	margin: 0 auto;
+}
+
+/* USER STYLES */
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 46px;
+}
+
+.nav__list-item{
+	display: inline-block;
+	margin-right: 30px;
+	text-transform: uppercase;
+}
+
+.nav__list-item a{
+	color: #fff;
+}
+
+.header__button{
+	text-transform: capitalize;
+	color: #707070;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	margin-right: 24px;
+	cursor: pointer;
+}
+
+.header__button-active{
+	padding: 12px 20px 13px 22px;
+	border-radius: 7px;
+	background-color: #306EF7;
+	color: #fff;
+}
+
+/* INTRO */
+
+.intro__box{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.intro__title{
+	font-weight: 700;
+	font-size: 112px;
+	line-height: 168px;
+	color: #fff;
+}
+
+.intro__title--active{
+	background: gradient(#FE6783 #FFBF84);
+	background: gradient(top, #ff0000, #ffcfcf);
+	background: linear-gradient(to right, #2f2f2f, #615f5f);
+}
+
+
+
+
