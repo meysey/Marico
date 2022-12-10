@@ -71,12 +71,73 @@ body {
 	font-size: 112px;
 	line-height: 168px;
 	color: #fff;
+	text-align: center;
+	margin-top: 128px;
 }
 
 .intro__title--active{
-	background: gradient(#FE6783 #FFBF84);
-	background: gradient(top, #ff0000, #ffcfcf);
-	background: linear-gradient(to right, #2f2f2f, #615f5f);
+	background-color: #2AA5A0;
+	background-image: linear-gradient(90deg, #FE6783, #FFBF84);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.intro__subtitle{
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 60px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 120px;
+	margin-bottom: 50px;
+}
+
+.intro__button{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	color: #707070;
+	border-radius: 10px;
+	padding: 24px 74px;
+	background-color: transparent;
+	border: 1px solid #707070;
+	margin-right: 26px;
+	margin-bottom: 20px;
+}
+
+.intro__button:last-child{
+	margin-right: 0;
+}
+
+.intro__button-active{
+	background-color: #326CF9;
+	color: #fff;
+	border: 0;
+}
+
+.intro__online{
+	display: flex;
+	align-items: center;
+}
+
+.intro__text{
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 38px;
+	text-align: center;
+	color: #707070;
+}
+
+.intro__icon{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.intro__text-number{
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 38px;
+	color: #FFFFFF;
 }
 
 
