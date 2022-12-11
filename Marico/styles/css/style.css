@@ -115,6 +115,12 @@ body {
 	border: 0;
 }
 
+.intro__icon{
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
 .intro__online{
 	display: flex;
 	align-items: center;
